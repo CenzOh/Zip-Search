@@ -1,0 +1,45 @@
+.zipcode_input {
+    /* input text box */
+    margin-left: 10px; 
+    margin-top: 12px;
+}
+
+.p_info {
+    /* text, no results */
+    margin-left: 0px;
+    padding-top: 15px;
+    font-weight: bold;
+} 
+
+.locationInfo h1 {
+    /* Heading for location */
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-left: 30px;
+    padding-top: 1px;
+    font-size: calc(10px + 1vmin);
+    font-weight: bold;
+}
+
+.locationInfo ul {
+    /* box */
+    border: solid black 1px;
+    padding-top: 15px;
+    width: 50%;
+    padding: 15px;
+    margin-left: 250px;
+    padding-bottom: 20px; /*pushes text up*/
+}
+
+/* no bullet points */
+.locationInfo ul li {
+    /* text about the stats of location */
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-left: 30px; /* pushes text to right */
+    padding-bottom: 1px;
+}
